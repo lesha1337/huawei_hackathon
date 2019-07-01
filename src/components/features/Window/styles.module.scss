@@ -1,0 +1,99 @@
+.window{
+    width: 38rem;
+    background: white;
+    height: 22rem;
+    border: 0.25rem solid black;
+    display: flex;
+    flex-direction: column;
+};
+
+@media all and (min-width: 800px){
+    button{
+        width: 20rem!important;
+    }
+    .container{
+        padding: 2rem!important;
+        h4{
+            padding-top: 0.5rem;
+            padding-bottom: 1.5rem;
+            line-height: 2.5rem;
+
+        }
+    }
+}
+
+@media all and (max-width: 800px){
+    .window {
+        width: 23.5rem;
+        height: 20rem;
+    }
+    .container{
+        padding: 1rem!important;
+        h1{
+            font-size: 1.5rem!important;
+        }
+        h4{
+            padding-bottom: 0.5rem;
+            line-height: 2rem;
+        }
+    }
+    .actionButtons{
+        div{
+            font-size: 1.2rem!important;
+        }
+    }
+}
+
+.header{
+    height: 2.8rem;
+    border-bottom: 0.25rem solid black;
+    display: flex;
+    line-height: 2.8rem;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.title{
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    line-height: 3rem; 
+    height: 2.8rem;
+    display: flex;
+}
+
+.huawei_logo{
+    line-height: 2.8rem;
+    margin: 0.25rem 0.5rem 0 0;
+    height: 2.2rem!important;
+    width: 2.2rem!important;
+}
+
+.actionButtons{
+    display: flex;
+    height: 2.675rem;
+    div{
+        border-left: 0.25rem solid black;
+        padding: 0 0.8rem 0 1rem;
+        line-height: 2.6rem;
+        font-size: 1.5rem;
+    }
+}
+
+.container{
+    padding: 2rem;
+    h1 {
+        font-size: 2.3rem;
+        margin:0;
+        line-height: 2.6rem;
+        padding-bottom: 1rem;
+    }
+
+    h4{
+        font-size: 1.2rem;
+        // line-height: 1.8rem;
+    }
+
+    a {
+        color: black!important;
+    }
+}

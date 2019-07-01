@@ -1,0 +1,40 @@
+.header{
+    //position: -webkit-sticky!important;
+    //position: sticky!important;
+
+    width: 100%;
+    height: 4rem;
+    line-height: 4rem;
+    background: white;
+    overflow: visible;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    transform: translate3d(0,0,0);
+}
+
+.wrapper{
+    top:0;
+    left: 0;
+    z-index: 5000;
+    position: absolute;
+    overflow: visible;
+    width: 100%;
+    height: 3rem;
+}
+
+//@supports ((position:sticky) or (position:-webkit-sticky)){
+//    .header{
+//        position: -webkit-sticky!important;
+//        position: sticky!important;
+//    }
+//}
+
+
+@media all and (max-width: 500px){
+    .header{
+      font-size: 11px!important;
+      letter-spacing: -0.5px;
+    }
+}

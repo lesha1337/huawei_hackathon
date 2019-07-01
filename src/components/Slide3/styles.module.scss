@@ -1,0 +1,81 @@
+.windows{
+    position: relative;
+    z-index: 100;
+}
+
+@media all and (max-width: 800px){
+    .windows {
+        //margin-left: -1rem;
+        margin-left: calc(100% - 29rem);
+
+        h2{
+            line-height: 1.5rem;
+        }
+
+        h4{
+            font-size: 1rem!important;
+            line-height: 1rem!important;
+        }
+    }
+
+
+}
+
+@media all and (min-width: 801px) {
+    .windows{
+        margin-left: calc(90% - 40rem);
+        h4{
+          line-height: 1.3rem;
+        }
+    }
+
+}
+
+.window{
+    position: absolute;
+
+    h2{
+        padding: 0;
+    }
+    h4{
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.rocket3{
+    margin-left: calc(5%);
+    img{
+        width: 8rem;
+    }
+}
+
+.comet4{
+    margin-left: calc(28%);
+
+    img{
+        width: 8rem;
+    }
+}
+
+.rocket5{
+    margin-left: calc(10%);
+
+    img{
+        width: 11rem;
+    }
+}
+
+.cloud2{
+    margin-left: 48%;
+    img{
+        width: 10rem;
+    }
+}
+
+.cloud3{
+    margin-left: calc(90% - 9rem);
+    img{
+        width: 13rem;
+    }
+}

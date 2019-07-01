@@ -1,0 +1,147 @@
+.slide3Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardText {
+  margin-top: 1em;
+}
+
+.windows {
+  position: relative;
+  z-index: 100;
+  margin-left: 8%;
+}
+
+.slide3Title {
+  color: white;
+}
+
+.cardContainer {
+  color: white;
+  height: 5rem;
+  width: 22rem;
+  position: absolute;
+  background-color: #DD6969;
+  padding: 1em 1em 1em 1em;
+  box-shadow: 20px 20px 0 0 #4e4e4e;
+  font-size: 0.9rem;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card1Container {
+  @extend .cardContainer;
+  left: 2%;
+  top: 30%;
+}
+
+.card2Container {
+  @extend .cardContainer;
+  left: 55%;
+  top: 40%;
+  background-color: #70117c;
+}
+
+.card3Container {
+  @extend .cardContainer;
+  left: 30%;
+  top: 60%;
+  background-color: #83788b;
+}
+
+@media all and (max-width: 350px) {
+  .card1Container, .card2Container, .card3Container{
+    min-height: 8rem;
+  }
+}
+
+
+@media all and (max-width: 1000px) and (min-width: 800px) {
+  .card1Container {
+    left: 2%;
+    top: 20%;
+  }
+
+  .card2Container {
+    left: 50%;
+    top: 40%;
+    background-color: #70117c;
+  }
+
+  .card3Container {
+    left: 25%;
+    top: 60%;
+    background-color: #83788b;
+  }
+
+  .slide3Title {
+    color: white;
+  }
+
+}
+
+@media all and (max-width: 800px) {
+
+  .windows {
+    margin-left: 0;
+  }
+
+  .cardContainer {
+    width: 80%;
+  }
+
+  .card1Container {
+    left: 10%;
+    top: 20%;
+  }
+
+  .card2Container {
+    left: 10%;
+    top: 40%;
+    background-color: #70117c;
+  }
+
+  .card3Container {
+    left: 10%;
+    top: 60%;
+    background-color: #83788b;
+  }
+
+  .slide3Title {
+    color: white;
+    position: absolute;
+    left: 0;
+  }
+
+}
+
+.planet10{
+  z-index: 10;
+  margin-left: 62%;
+
+  img {
+    width: 12rem;
+  }
+}
+
+.comet3{
+  z-index: 10;
+  margin-left: 1%;
+
+  img {
+    width: 10rem;
+  }
+}
+
+.comet5{
+  z-index: 10;
+  margin-left: calc(90% - 10rem);
+
+  img {
+    width: 15rem;
+  }
+}
