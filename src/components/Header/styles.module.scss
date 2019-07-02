@@ -1,7 +1,4 @@
 .header{
-    //position: -webkit-sticky!important;
-    //position: sticky!important;
-
     width: 100%;
     height: 4rem;
     line-height: 4rem;
@@ -23,13 +20,6 @@
     width: 100%;
     height: 3rem;
 }
-
-//@supports ((position:sticky) or (position:-webkit-sticky)){
-//    .header{
-//        position: -webkit-sticky!important;
-//        position: sticky!important;
-//    }
-//}
 
 
 @media all and (max-width: 500px){

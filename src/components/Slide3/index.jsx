@@ -47,22 +47,6 @@ export default class Slide3 extends Component {
                     <img src='img/oblako1.png' alt={''}/>
                 </Parallax.Layer>
 
-                {/*<Parallax.Layer offset={2.2} speed={0.2} className={styles.rocket1}>*/}
-                {/*    <img src='img/rocket_1.png'/>*/}
-                {/*</Parallax.Layer>*/}
-
-                {/*<Parallax.Layer offset={2.4} speed={-0.1} className={styles.planet11}>*/}
-                {/*    <img src='img/planet_11.png'/>*/}
-                {/*</Parallax.Layer>*/}
-
-                {/*<Parallax.Layer offset={2.65} speed={0.1} className={styles.planet12}>*/}
-                {/*    <img src='img/planet_12.png'/>*/}
-                {/*</Parallax.Layer>*/}
-
-                {/*<Parallax.Layer offset={2.72} speed={-0.05} className={styles.rocket2}>*/}
-                {/*    <img src='img/rocket_2.png'/>*/}
-                {/*</Parallax.Layer>*/}
-
             </>
         )
     }

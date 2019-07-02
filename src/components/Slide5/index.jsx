@@ -20,7 +20,7 @@ export default class Slide5 extends Component {
                             </h4>
 
                             <div className={styles.regLink}>
-                                <a href='#'>
+                                <a href='https://docs.google.com/forms/d/e/1FAIpQLSe6-4Z7wqGKZr4G54QAx3Oqi79oAWDFGLYL9zIMh8OWo_LSaw/viewform'>
                                     <button className="nes-btn">Регистрация</button>
                                 </a>
                             </div>
@@ -59,30 +59,10 @@ export default class Slide5 extends Component {
 
                 <Parallax.Layer offset={4} speed={0} className={styles.footerContainer}>
                     <div className={styles.footer}>
-                        <p style={{textAlign: 'center'}}>Кафедра инноватики МФТИ 2019</p>
+                        <p style={{textAlign: 'center'}}>Лаборатория Инноватики МФТИ 2019</p>
                         <img src='img/footer.png' alt={''}/>
                     </div>
                 </Parallax.Layer>
-
-                {/*<Parallax.Layer offset={4.1} speed={-0.1} className={styles.planet10}>*/}
-                {/*    <img src='img/planet_10.png'/>*/}
-                {/*</Parallax.Layer>*/}
-
-                {/*<Parallax.Layer offset={4.2} speed={0.2} className={styles.rocket1}>*/}
-                {/*    <img src='img/rocket_1.png'/>*/}
-                {/*</Parallax.Layer>*/}
-
-                {/*<Parallax.Layer offset={4.4} speed={-0.1} className={styles.planet11}>*/}
-                {/*    <img src='img/planet_11.png'/>*/}
-                {/*</Parallax.Layer>*/}
-
-                {/*<Parallax.Layer offset={4.65} speed={0.1} className={styles.planet12}>*/}
-                {/*    <img src='img/planet_12.png'/>*/}
-                {/*</Parallax.Layer>*/}
-
-                {/*<Parallax.Layer offset={4.72} speed={-0.05} className={styles.rocket2}>*/}
-                {/*    <img src='img/rocket_2.png'/>*/}
-                {/*</Parallax.Layer>*/}
 
             </>
         )

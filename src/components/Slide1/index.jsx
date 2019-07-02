@@ -20,7 +20,8 @@ export default class Slide1 extends Component {
                             ONLINE
                             HACKATHON</h1>
 
-                            <a href='#' className={styles.regLink}>
+                            <a href='https://docs.google.com/forms/d/e/1FAIpQLSe6-4Z7wqGKZr4G54QAx3Oqi79oAWDFGLYL9zIMh8OWo_LSaw/viewform'
+                               className={styles.regLink}>
                                 <button className="nes-btn">Регистрация</button>
                             </a>
 
