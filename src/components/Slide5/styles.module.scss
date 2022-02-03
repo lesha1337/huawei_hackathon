@@ -1,101 +1,102 @@
-.windows{
-    position: relative;
-    z-index: 100; 
-    margin-left: 8%;
+.windows {
+  position: relative;
+  z-index: 100;
+  margin-left: 8%;
 }
 
-.window{
-    position: absolute;
+.window {
+  position: absolute;
 }
 
-.plane{
-    margin-left: calc(100% - 17rem);
-    img{
-        width: 7*2.2rem;
-        height: 7rem;
-    }
+.plane {
+  margin-left: calc(100% - 17rem);
+  img {
+    width: 7 * 2.2rem;
+    height: 7rem;
+  }
 }
 
-.oblako1{
-    margin-left: calc(58%);
-    img{
-        width: 14rem;
-    }
+.oblako1 {
+  margin-left: calc(58%);
+  img {
+    width: 14rem;
+  }
 }
 
-.oblako2{
-    margin-left: calc(100% - 15rem);
-    z-index: 50;
-    img{
-        width: 12rem;
-    }
+.oblako2 {
+  margin-left: calc(100% - 15rem);
+  z-index: 50;
+  img {
+    width: 12rem;
+  }
 }
 
-.sun{
-    margin-left: calc(100% - 10rem);
-    z-index: 40;
-    img{
-        width: 6rem;
-    }
+.sun {
+  margin-left: calc(100% - 10rem);
+  z-index: 40;
+  img {
+    width: 6rem;
+  }
 }
 
-.oblako3{
-    margin-left: calc(100% - 25rem);
-    img{
-        width: 18rem;
-    }
+.oblako3 {
+  margin-left: calc(100% - 25rem);
+  img {
+    width: 18rem;
+  }
 }
 
-.oblako4{
-    margin-left: calc(62%);
-    img{
-        width: 12rem;
-    }
+.oblako4 {
+  margin-left: calc(62%);
+  img {
+    width: 12rem;
+  }
 }
 
-@media all and (max-width: 800px){
-    .windows {
-        margin-left: -1rem;
-    }
-    p{
-        font-size: 12px;
-    }
-    .oblako1{
-        opacity: 0;
-    }
+@media all and (max-width: 800px) {
+  .windows {
+    margin-left: -1rem;
+  }
+  p {
+    font-size: 12px;
+  }
+  .oblako1 {
+    opacity: 0;
+  }
 }
 
 @media all and (min-width: 800px) {
-    .regLink {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
+  .regLink {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 }
 
-.footerContainer{
-    overflow: hidden;
-    position: relative;
+.footerContainer {
+  overflow: hidden;
+  position: relative;
 }
 
-.footer{
+.footer {
+  position: absolute;
+  bottom: 0;
+  overflow: hidden;
+  width: 100%;
+  max-width: 100%;
+
+  p {
     position: absolute;
-    bottom: 0;
-    overflow: hidden;
-    max-width: 100%;
+    left: 0 !important;
+    width: 100%;
+    color: white;
+    line-height: 8.5rem;
+  }
 
-    p{
-        position: absolute;
-        left: 0!important;
-        width: 100%;
-        color: white;
-        line-height: 8.5rem;
-    }
-
-    img{
-        width: 100%;
-        max-width: 3600px;
-        min-width: 1000px;
-        height: 7rem;
-    }
+  img {
+    width: 100%;
+    max-width: 3600px;
+    min-width: 1000px;
+    height: 7rem;
+  }
 }
