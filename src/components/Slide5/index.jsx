@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Parallax } from "react-spring";
-import Window from "../features/Window/index";
+import Window from "../features/Window";
 import styles from "./styles.module.scss";
 
 export default class Slide5 extends Component {
@@ -18,22 +18,19 @@ export default class Slide5 extends Component {
             className={styles.window}
             style={{ marginLeft: "2rem", marginTop: "0rem" }}
           >
-            {" "}
-            <Window />{" "}
+            <Window />
           </div>
           <div
             className={styles.window}
             style={{ marginLeft: "3rem", marginTop: "-1rem" }}
           >
-            {" "}
-            <Window />{" "}
+            <Window />
           </div>
           <div
             className={styles.window}
             style={{ marginLeft: "4rem", marginTop: "-2rem" }}
           >
-            {" "}
-            <Window />{" "}
+            <Window />
           </div>
           <div
             className={styles.window}
@@ -44,7 +41,7 @@ export default class Slide5 extends Component {
 
               <div className={styles.regLink}>
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSe6-4Z7wqGKZr4G54QAx3Oqi79oAWDFGLYL9zIMh8OWo_LSaw/viewform">
-                  <button className="nes-btn">Регистрация</button>
+                  <button className="nes-btn">{"Регистрация"}</button>
                 </a>
               </div>
             </Window>
@@ -52,7 +49,7 @@ export default class Slide5 extends Component {
         </Parallax.Layer>
 
         <Parallax.Layer offset={4.14} speed={0} className={"defaultTitle"}>
-          <h2> Напоследок </h2>
+          <h2>{"Напоследок"}</h2>
         </Parallax.Layer>
 
         <Parallax.Layer offset={4.23} speed={0.15} className={styles.oblako1}>

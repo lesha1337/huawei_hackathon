@@ -53,6 +53,12 @@
   }
 }
 
+.regLink {
+  button {
+    color: #000!important;
+  }
+}
+
 @media all and (max-width: 800px) {
   .windows {
     margin-left: -1rem;
